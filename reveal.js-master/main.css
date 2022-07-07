@@ -1,0 +1,9 @@
+.highlighted {
+    color: orange;
+}
+
+.profileImg {
+    border: 2px white solid;
+    width: 200px;
+    height: 200px;
+}
