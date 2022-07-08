@@ -20,11 +20,19 @@
 	<div class="reveal">
 		<div class="slides">
 
+			<!-- Section 1: Welcome Page -->
+			<section>
+				<img src="assets/Garderona (600 × 600 px).png" alt="logo">
+			</section>
+
+			<!-- Section 2:Entry Question: -->
 			<section>
 				<h3>How many clothes do <span class="highlighted">you</span> have ?</h3>
 				<img src="assets/mentimeter_qr_code.png" height="200" width="200"
 					alt="https://www.menti.com/p54pb5kw7t">
 			</section>
+
+			<!-- Section 3: The Team: -->
 			<section>
 				<h1>The Queens</h1>
 				<img class="profileImg" src="" alt="">
@@ -43,19 +51,20 @@
 
 				<section>
 					<h3>How did the journey start</h3>
-					<h4>Should we make a mobile app or not?</h4>
-					<h4>YES</h4>
+					<p>Should we make a mobile app or not?</p>
+					<h4>YES!</h4>
 					<ul>
-						<li>excalidraw</li>
-						<li>figma</li>
-						<li>jira</li>
 						<li>learn react native, android studio manager and expo</li>
 						<li>first screenshots</li>
 					</ul>
 				</section>
 				<section>
-					<iframe width="1280" height="720" src="assets/Excalidraw.webm" frameborder="0" allow="autoplay"
+					<iframe width="1280" height="720" src="assets/ExcalidrawFigma.webm" frameborder="0" allow="autoplay"
 						allowfullscreen></iframe>
+					<img src="assets/FigmaFlow.png" alt="">
+				</section>
+				<section>
+					<img src="assets/Jira.png" alt="">
 				</section>
 			</section>
 			<section>
@@ -123,10 +132,35 @@
 						<li>sorting</li>
 						<li>profile
 						<li>logout</li>
+
+					</ul>
 				</section>
+				<section data-auto-animate>
+					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+						useEffect(() => {
+							async function getImagesFromBackend() {
+							  const ip = await currentIP();
+							  try {
+								const result = await axios({
+								  method: "get",
+								  headers: {
+									Authorization: `Bearer ${token}`,
+								  },
+								  url: `http://${ip}:9000/cloth/favorite`,
+								});
+								setFav(result.data);
+						
+							  } catch (error) {
+								console.log("error in fetching favorites",error);
+							  }
+							  
+							}
+						
+							getImagesFromBackend();
+						  }, [refresh]);
+					</code></pre>
 
-				</ul>
-
+				</section>
 			</section>
 
 		</div>
