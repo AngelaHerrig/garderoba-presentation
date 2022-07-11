@@ -1,9 +1,50 @@
+.h1{
+    padding-bottom: 10%;
+}
+
+
 .highlighted {
+    font-size: 20rem;
+    font-weight: bolder;
     color: orange;
 }
 
+.highlightedTitle {
+    color: orange;
+    font-weight: bold;
+}
+
+.teamContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .profileImg {
     border: 2px white solid;
     width: 200px;
     height: 200px;
+    object-fit: cover;
+}
+
+.teamDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkCont {
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+    
+}
+
+.fa-github{
+    color: white;
+}
+
+.fa-linkedin{
+    color: rgb(10,102,194);
 }
