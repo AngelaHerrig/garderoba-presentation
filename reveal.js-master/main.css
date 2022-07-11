@@ -64,3 +64,20 @@
 .fa-linkedin {
     color: rgb(10, 102, 194);
 }
+
+#qrCodeContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.qrCode {
+    /* position: absolute; */
+    width: 120px;
+    height: 120px;
+}
+
+#thankYou {
+    margin-top: 300px;
+}
