@@ -14,17 +14,13 @@
     font-weight: bold;
 }
 
+/* Queens */
+
 .teamContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-.profileImg {
-    border: 2px white solid;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+    gap: 2rem;
 }
 
 .teamDetails {
@@ -34,10 +30,30 @@
     align-items: center;
 }
 
+.reveal p {
+    margin: 0.2rem;
+}
+
+.profileImg {
+    border: 2px white solid;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.teamName {
+    font-size: 1.6rem;
+}
+
+.teamTitle {
+    font-size: 1.3rem;
+}
+
 .linkCont {
     display: flex;
     gap: 20%;
     justify-content: center;
+    margin-top: 0.3rem;
     
 }
 
