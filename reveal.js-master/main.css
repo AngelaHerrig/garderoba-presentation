@@ -9,7 +9,7 @@
     color: orange;
 }
 
-.highlightedTitle {
+.highlightedText {
     color: orange;
     font-weight: bold;
 }
@@ -48,3 +48,4 @@
 .fa-linkedin{
     color: rgb(10,102,194);
 }
+
