@@ -61,7 +61,7 @@ Looking for a motivated wevDev? Visit us on LinkedIn:
     <td align="center">
       <a href="https://www.linkedin.com/in/latifah-a-a1382923a/">
         <div>
-          <img src="./assets/team/Latifah.JPG" height="150" alt="Doppler">
+          <img src="./assets/team/Latifah.jpg" height="150" alt="Doppler">
         </div>
         <b>Latifah Alsubaie</b>
         <div>
