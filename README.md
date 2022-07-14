@@ -1,45 +1,70 @@
 <p align="center">
-  <a href="https://revealjs.com">
-  <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text-sticker.png" alt="reveal.js" width="500">
+  <!-- <a href="https://angelaherrig.github.io/garderoba-presentation/"> -->
+  <img src="./assets/Garderona (600 × 600 px).png" alt="Gaderoba" width="250">
   </a>
-  <br><br>
-  <a href="https://github.com/hakimel/reveal.js/actions"><img src="https://github.com/hakimel/reveal.js/workflows/tests/badge.svg"></a>
-  <a href="https://slides.com/"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
 </p>
 
-reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create beautiful presentations for free. Check out the live demo at [revealjs.com](https://revealjs.com/).
+Garderoba is a mobile app created with React Native and Expo.
+This is our final project as part of a WebDevelopment course at [DCI](https://digitalcareerinstitute.org).
+We designed and developed the app within 2 months.
 
-The framework comes with a powerful feature set including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX typesetting](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and an [extensive API](https://revealjs.com/api/).
-
----
-
-Want to create reveal.js presentation in a graphical editor? Try <https://slides.com>. It's made by the same people behind reveal.js.
+The idea is to digitize the wardrobe and have an easy way to choose an outfit according to weather and situation.
 
 ---
 
-### Sponsors
-Hakim's open source work is supported by <a href="https://github.com/sponsors/hakimel">GitHub sponsors</a>. Special thanks to:
+### More Information
+
+- 🖌 First draw on [Excalidraw](https://excalidraw.com/#room=8b72a5ccd0af65892314,trTRZX2AdMTF4IIqThZGYw)
+- 🚀 Wireframing on [Figma](https://www.figma.com/file/yBYDp75lEdRw7wsob4VTvM/Diagram---Garderoba)
+- 🎬 Explainer Video with [Powtoon]<!--(https://www.youtube.com/watch?v=-5OaHI0zonk) -->
+- 📖 Repository of our [Frontend](https://github.com/Elenikats/greenthumb) and [Backend](https://github.com/Elenikats/garderoba-backend)
+- 👀 Presentation with [reveal.js]<!--(https://angelaherrig.github.io/garderoba-presentation/)-->
+
+---
+
+### We are on LinkedIn
+
+Looking for a motivated wevDev? Visit us on LinkedIn:
+
 <div align="center">
   <table>
     <td align="center">
-      <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=revealjs&utm_source=github">
+      <a href="https://www.linkedin.com/in/eleni-katsareli/">
         <div>
-          <img src="https://user-images.githubusercontent.com/629429/151508669-efb4c3b3-8fe3-45eb-8e47-e9510b5f0af1.svg" width="290" alt="WorkOS">
+          <img src="./assets/team/Eleni.jpg" height="150" alt="Doppler">
         </div>
-        <b>Your app, enterprise-ready.</b>
+        <b>Eleni Katsareli</b>
         <div>
-          <sub>Start selling to enterprise customers with just a few lines of code. Add Single Sign-On (and more) in minutes instead of months.</sup>
         </div>
       </a>
     </td>
     <td align="center">
-      <a href="https://www.doppler.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=revealjs&utm_source=github">
+      <a href="https://www.linkedin.com/in/angela-herrig/">
         <div>
-          <img src="https://user-images.githubusercontent.com/629429/151510865-9fd454f1-fd8c-4df4-b227-a54b87313db4.png" width="290" alt="Doppler">
+          <img src="./assets/team/angela.jpg" height="150" alt="Doppler">
         </div>
-        <b>All your environment variables, in one place</b>
+        <b>Angela Herrig</b>
         <div>
-          <sub>Stop struggling with scattered API keys, hacking together home-brewed tools, and avoiding access controls. Keep your team and servers in sync with Doppler.</sup>
+        </div>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/monika-ghimire14/">
+        <div>
+          <img src="./assets/team/Mnk.jpg" height="150" alt="Doppler">
+        </div>
+        <b>Monika Ghimire</b>
+        <div>
+        </div>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/latifah-a-a1382923a/">
+        <div>
+          <img src="./assets/team/Latifah.JPG" height="150" alt="Doppler">
+        </div>
+        <b>Latifah Alsubaie</b>
+        <div>
         </div>
       </a>
     </td>
@@ -48,14 +73,6 @@ Hakim's open source work is supported by <a href="https://github.com/sponsors/ha
 
 ---
 
-### Getting started
-- 🚀 [Install reveal.js](https://revealjs.com/installation)
-- 👀 [View the demo presentation](https://revealjs.com/demo)
-- 📖 [Read the documentation](https://revealjs.com/markup/)
-- 🖌 [Try the visual editor for reveal.js at Slides.com](https://slides.com/)
-- 🎬 [Watch the reveal.js video course (paid)](https://revealjs.com/course)
-
---- 
 <div align="center">
-  MIT licensed | Copyright © 2011-2022 Hakim El Hattab, https://hakim.se
+Copyright © 2022 Garderoba
 </div>
