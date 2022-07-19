@@ -66,18 +66,22 @@
 }
 
 #qrCodeContainer {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    margin-right: 20rem;
 
 }
 
 .qrCode {
     /* position: absolute; */
-    width: 120px;
-    height: 120px;
+    /* align-self: center; */
+    width: 250px;
+    height: 250px;
 }
 
 #thankYou {
-    margin-top: 300px;
+    /* margin-top: 300px; */
 }
