@@ -69,7 +69,7 @@ Looking for a motivated webDev? Visit us on LinkedIn:
     </td>
   </table>
 </div>
-
+<p>Or just drop a email at <a href="mailto:garderoba.app@gmail.com">garderoba.app@gmail.com</a></p>
 ---
 
 <div align="center">
