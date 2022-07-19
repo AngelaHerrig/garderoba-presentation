@@ -24,7 +24,7 @@ The idea is to digitize the wardrobe and have an easy way to choose an outfit ac
 
 ### We are on LinkedIn
 
-Looking for a motivated wevDev? Visit us on LinkedIn:
+Looking for a motivated webDev? Visit us on LinkedIn:
 
 <div align="center">
   <table>
@@ -59,7 +59,6 @@ Looking for a motivated wevDev? Visit us on LinkedIn:
       </a>
     </td>
     <td align="center">
-      <a href="https://www.linkedin.com/in/latifah-a-a1382923a/">
         <div>
           <img src="./assets/team/Latifah.jpg" height="150" alt="Doppler">
         </div>
