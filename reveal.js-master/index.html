@@ -173,7 +173,44 @@
 					<h1>Live Demo</h1>
 				</section>
 				<!-- Behind the scenes---code snippets -->
-				<section data-auto-animate>
+				<!-- <section data-auto-animate>
+					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+						useEffect(() => {
+							async function getImagesFromBackend() {
+							  const ip = await currentIP();
+							  try {
+								const result = await axios({
+								  method: "get",
+								  headers: {
+									Authorization: `Bearer ${token}`,
+								  },
+								  url: `http://${ip}:9000/cloth/favorite`,
+								});
+								setFav(result.data);
+						
+							  } catch (error) {
+								console.log("error in fetching favorites",error);
+							  }
+							  
+							}
+						
+							getImagesFromBackend();
+						  }, [refresh]);
+					</code></pre>
+
+				</section> -->
+			</section>
+
+			<!-- Final slides -->
+			<section data-background-image="./assets/Garderoba-Mountain.jpg" data-background-size="contain"></section>
+			<section data-background-image="./assets/top.jpg" data-background-size="cover">
+				<div id="qrCodeContainer">
+					<img class="qrCode" src="assets/team/QReleni.png" alt="">
+					<img class="qrCode" src="assets/team/QRangela.png" alt="">
+					<img class="qrCode" src="assets/team/QRmonika.png" alt="">
+					<img class="qrCode" src="assets/team/QRmonika.png" alt="">
+				</div>
+				<h1 id="thankYou">Thank you</h1>		<section data-auto-animate>
 					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
 						useEffect(() => {
 							async function getImagesFromBackend() {
@@ -199,18 +236,6 @@
 					</code></pre>
 
 				</section>
-			</section>
-
-			<!-- Final slides -->
-			<section data-background-image="./assets/Garderoba-Mountain.jpg" data-background-size="contain"></section>
-			<section data-background-image="./assets/top.jpg" data-background-size="cover">
-				<div id="qrCodeContainer">
-					<img class="qrCode" src="assets/team/QReleni.png" alt="">
-					<img class="qrCode" src="assets/team/QRangela.png" alt="">
-					<img class="qrCode" src="assets/team/QRmonika.png" alt="">
-					<img class="qrCode" src="assets/team/QRmonika.png" alt="">
-				</div>
-				<h1 id="thankYou">Thank you</h1>
 			</section>
 		</div>
 	</div>
