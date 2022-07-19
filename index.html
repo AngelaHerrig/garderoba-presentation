@@ -80,7 +80,7 @@
 							</div>
 						</div>
 						<div class="teamDetails">
-
+							<img class="profileImg" src="./assets/team/Latifah.jpg" alt="latifah">
 							<p class="teamName">Latifah Alsubaie</p>
 							<p class="teamTitle">PM Queen</p>
 							<div class="linkCont">
@@ -158,10 +158,9 @@
 					<ul>
 						<li class="highlightedText">Personal:</li>
 						<ul>
-
-							<li>Communication</li>
 							<li>The "I don't know" bubble</li>
 							<li>Mount Everest (we want more)</li>
+							<li>Communication</li>
 							<li>Self motivation </li>
 							<li>Time Management</li>
 
@@ -175,7 +174,7 @@
 					<h1>Live Demo</h1>
 				</section>
 				<!-- Behind the scenes---code snippets -->
-				<section data-auto-animate>
+				<!-- <section data-auto-animate>
 					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
 						useEffect(() => {
 							async function getImagesFromBackend() {
@@ -200,19 +199,46 @@
 						  }, [refresh]);
 					</code></pre>
 
-				</section>
+				</section> -->
 			</section>
 
 			<!-- Final slides -->
 			<section data-background-image="./assets/Garderoba-Mountain.jpg" data-background-size="contain"></section>
 			<section data-background-image="./assets/top.jpg" data-background-size="cover">
 				<div id="qrCodeContainer">
-					<img class="qrCode" src="assets/team/QReleni.png" alt="">
+					<!-- <img class="qrCode" src="assets/team/QReleni.png" alt="">
 					<img class="qrCode" src="assets/team/QRangela.png" alt="">
 					<img class="qrCode" src="assets/team/QRmonika.png" alt="">
-					<img class="qrCode" src="assets/team/QRmonika.png" alt="">
+					<img class="qrCode" src="assets/team/QRlatifah.png" alt=""> -->
+					<img class="qrCode" src="assets/team/Garderoba.png" alt="">
+					<h1 id="thankYou">Thank you</h1>		
 				</div>
-				<h1 id="thankYou">Thank you</h1>
+				<!-- <section data-auto-animate>
+					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+						useEffect(() => {
+							async function getImagesFromBackend() {
+							  const ip = await currentIP();
+							  try {
+								const result = await axios({
+								  method: "get",
+								  headers: {
+									Authorization: `Bearer ${token}`,
+								  },
+								  url: `http://${ip}:9000/cloth/favorite`,
+								});
+								setFav(result.data);
+						
+							  } catch (error) {
+								console.log("error in fetching favorites",error);
+							  }
+							  
+							}
+						
+							getImagesFromBackend();
+						  }, [refresh]);
+					</code></pre>
+
+				</section> -->
 			</section>
 		</div>
 	</div>
