@@ -17,7 +17,7 @@ The idea is to digitize the wardrobe and have an easy way to choose an outfit ac
 - 🖌 First draw on [Excalidraw](https://excalidraw.com/#room=8b72a5ccd0af65892314,trTRZX2AdMTF4IIqThZGYw)
 - 🚀 Wireframing on [Figma](https://www.figma.com/file/yBYDp75lEdRw7wsob4VTvM/Diagram---Garderoba)
 - 🎬 Explainer Video with [Powtoon]<!--(https://www.youtube.com/watch?v=-5OaHI0zonk) -->
-- 📖 Repository of our [Frontend](https://github.com/Elenikats/greenthumb) and [Backend](https://github.com/Elenikats/garderoba-backend)
+- 📖 Repository of our [Frontend](https://github.com/Elenikats/garderoba) and [Backend](https://github.com/Elenikats/garderoba-backend)
 - 👀 Presentation with [reveal.js]<!--(https://angelaherrig.github.io/garderoba-presentation/)-->
 
 ---
