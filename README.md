@@ -1,6 +1,6 @@
 <p align="center">
-  <!-- <a href="https://angelaherrig.github.io/garderoba-presentation/"> -->
-  <img src="./assets/Garderona (600 × 600 px).png" alt="Gaderoba" width="250">
+  <a href="https://angelaherrig.github.io/garderoba-presentation/">
+    <img src="./assets/Garderona (600 × 600 px).png" alt="Gaderoba" width="250">
   </a>
 </p>
 
